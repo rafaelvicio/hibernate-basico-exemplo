@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="471e16fe-71b2-4f4f-8e00-41eaff7abe31" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/util/HibernateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/AdicionaProduto.java" afterPath="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/AdicionaProduto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/CarregaProduto.java" afterPath="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/CarregaProduto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/TestaProdutoDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/dao/ProdutoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/util/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -26,6 +26,37 @@
                 <element signature="e#422#423#0" expanded="true" />
                 <element signature="e#466#467#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProdutoDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/dao/ProdutoDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestaProdutoDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/TestaProdutoDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/util/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/AdicionaProduto.java" />
         <option value="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/CarregaProduto.java" />
+        <option value="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/dao/ProdutoDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/TestaProdutoDAO.java" />
       </list>
     </option>
   </component>
@@ -579,12 +612,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496782424280</updated>
-      <workItem from="1496782426467" duration="846000" />
+      <workItem from="1496782426467" duration="966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="846000" />
+    <option name="totallyTimeSpent" value="966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-8" width="1382" height="744" extended-state="6" />
@@ -700,6 +733,33 @@
             <element signature="e#422#423#0" expanded="true" />
             <element signature="e#466#467#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/dao/ProdutoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/rafaelvicio/hibernate/TestaProdutoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
